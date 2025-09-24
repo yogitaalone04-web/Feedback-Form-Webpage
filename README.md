@@ -8,11 +8,12 @@ A modern feedback form with star rating, confirmation logic, and smooth UI anima
 
 ## 🖼️ Screenshots
 
-### 📌 Form Layout
+### 📝 Form Layout  
 ![Feedback Form Layout](screenshot_1.png)
 
-### ✅ Confirmation Message
+### ✅ Confirmation Message  
 ![Confirmation Message](screenshot_2.png)
+
 
 
 ## ✨ Features
