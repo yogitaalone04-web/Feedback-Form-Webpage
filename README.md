@@ -3,8 +3,16 @@
 A modern feedback form with star rating, confirmation logic, and smooth UI animations.
 
 ## 🚀 Live Demo
+[Click here to view the live form]
  (https://yogitaalone04-web.github.io/Feedback-Form-Webpage/)
 
+## 🖼️ Screenshots
+
+### 📌 Form Layout
+![Feedback Form Layout](screenshot_1.png)
+
+### ✅ Confirmation Message
+![Confirmation Message](screenshot_2.png)
 
 
 ## ✨ Features
