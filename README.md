@@ -14,43 +14,38 @@ The submitted responses are stored and displayed with a **Thank You Message**.
 
 
 
-## 📸 UI/UX Screenshots
+## 📸 UI/UX Screenshots                                          
 
-### 1. Feedback Form Page
+### 1. Feedback Form Page                                     ### 2. Success Message Page
 
-![Feedback Form](Feedback_Form.png)
-
-### 2. Success Message Page
-
-![Success Message]((Feedback_Success.png)
+![Feedback Form] (Screenshot_1.png)                            ![Success Message] (Screenshot_2.png)
 
 
 
 ## 🔗 Live Demo
 
-👉 [Click here to view deployed project](https://yogitaalone04-web.github.io/Feedback-Form-Webpage/)
+👉 [Click here to view deployed project]  ( https://yogitaalone04-web.github.io/Feedback-Form-Webpage/)
 
 
 
 ## 📂 Project Structure
 
-
 Feedback-Form-Webpage/
 │
-├── frontend/
-│   ├── index.html        # Main UI
-│   ├── style.css         # Styling
-│   ├── script.js         # Client-side logic
-│   └── assets/           # Screenshots, images
+├── index.html              # Main feedback form UI (frontend)
+├── style.css               # Styling (UI design, button color update, responsiveness)
+├── script.js               # Client-side logic (form handling, success message)
 │
-├── backend/
-│   └── backend.js        # Backend integration (Google Script / API)
+├── backend.js              # Google Apps Script integration (data saving in Sheets)
 │
-├── docs/
-│   └── UI_UX.pdf         # UI/UX Design PDF
+├── Feedback_Form.png       # Screenshot (Feedback Form UI)
+├── Feedback_Success.png    # Screenshot (Success Message)
+├── Feedback_UIUX.pdf       # UI/UX documentation (screenshots + explanation)
 │
-└── README.md             # Documentation
-
+├── README.md               # Project documentation
+├── LICENSE                 # Open-source license
+│
+├── .gitignore              # Git ignore file
 
 
 
