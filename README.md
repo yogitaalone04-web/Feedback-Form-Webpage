@@ -16,10 +16,11 @@ The submitted responses are stored and displayed with a **Thank You Message**.
 ## 📸 UI/UX Screenshots
 
 1. Feedback Form Page  
-![Feedback Form](Feedback_Form.png)
+![Feedback Form](Feedback_Form.png)  
 
 2. Success Message Page  
-![Success Message](Feedback_Success.png)
+![Success Message](Feedback_Success.png)  
+
 
 
 
