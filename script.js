@@ -11,8 +11,11 @@ form.addEventListener('submit', function(e) {
 
   const formData = new FormData(form);
 
-  // Backend ko data bhejna background me chalta rahega
-  fetch("https://script.google.com/macros/s/AKfycby1K9xmfKgTXuTzCa0A7C2AuMLskIVTGA5DMmwybwuJYaxEqysgivXg88CBHOOuTerc/exec", {
+  // Debug ke liye console me rating print karna (optional)
+  console.log("Rating submitted:", formData.get("rating"));
+
+  // Backend ko data bhejna
+  fetch("https://script.google.com/macros/s/NEW_URL/exec", {
     method: "POST",
     body: formData
   })
