@@ -34,7 +34,7 @@ body {
   height: 80px;
 }
 .btn {
-  background: #2196f3;
+  background: #e91e63;   /* Pink button */
   color: white;
   border: none;
   padding: 12px;
@@ -45,7 +45,7 @@ body {
   transition: 0.3s;
 }
 .btn:hover {
-  background: #1976d2;
+  background: #ad1457;   /* Dark pink hover */
 }
 .success {
   display: none;
