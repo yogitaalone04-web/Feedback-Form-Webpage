@@ -13,12 +13,13 @@ The submitted responses are stored and displayed with a **Thank You Message**.
 * Success message appears instantly after submission.
 
 
+## 📸 UI/UX Screenshots
 
-## 📸 UI/UX Screenshots                                          
+1. Feedback Form Page  
+![Feedback Form](Feedback_Form.png)
 
-### 1. Feedback Form Page                                     ### 2. Success Message Page
-
-![Feedback Form] (Screenshot_1.png)                            ![Success Message] (Screenshot_2.png)
+2. Success Message Page  
+![Success Message](Feedback_Success.png)
 
 
 
