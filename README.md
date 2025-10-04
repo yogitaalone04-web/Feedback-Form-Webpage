@@ -22,13 +22,13 @@ The submitted responses are stored and displayed with a **Thank You Message**.
 
 ### 2. Success Message Page
 
-![Success Message]((Feedback_Success.png)
+![Success Message] (Feedback_Success.png)
 
 
 
 ## 🔗 Live Demo
 
-👉 [Click here to view deployed project](https://yogitaalone04-web.github.io/Feedback-Form-Webpage/)
+👉 [Click here to view deployed project] (https://yogitaalone04-web.github.io/Feedback-Form-Webpage/)
 
 
 
