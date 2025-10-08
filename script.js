@@ -5,17 +5,15 @@ const successMessage = document.getElementById('successMessage');
 form.addEventListener('submit', function(e) {
   e.preventDefault(); // stop normal form submit
 
-  // ✅ Turant success message dikhado
+  // ✅ Show success message immediately
   feedbackForm.style.display = 'none';
   successMessage.style.display = 'block';
 
   const formData = new FormData(form);
 
-  // Debug ke liye console me rating print karna (optional)
   console.log("Rating submitted:", formData.get("rating"));
 
-  // Backend ko data bhejna
-  fetch("https://script.google.com/macros/s/AKfycbyfMh9BI7b6rhBeIFTN05d4pGPaEklhFAccgePmy64uIzRIFcX40aWesU8SuJ15icXO/exec ", {
+  fetch("https://script.google.com/macros/s/AKfycbyfMh9BI7b6rhBeIFTN05d4pGPaEklhFAccgePmy64uIzRIFcX40aWesU8SuJ15icXO/exec", {
     method: "POST",
     body: formData
   })
