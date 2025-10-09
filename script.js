@@ -14,6 +14,7 @@ form.addEventListener('submit', function(e) {
   console.log("Rating submitted:", formData.get("rating"));
 
   fetch("https://script.google.com/macros/s/AKfycbyfMh9BI7b6rhBeIFTN05d4pGPaEklhFAccgePmy64uIzRIFcX40aWesU8SuJ15icXO/exec", {
+
     method: "POST",
     body: formData
   })
