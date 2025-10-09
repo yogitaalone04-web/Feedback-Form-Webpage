@@ -3,9 +3,8 @@ const feedbackForm = document.getElementById('feedbackForm');
 const successMessage = document.getElementById('successMessage');
 
 form.addEventListener('submit', function(e) {
-  e.preventDefault(); // stop normal form submit
+  e.preventDefault();
 
-  // ✅ Show success message immediately
   feedbackForm.style.display = 'none';
   successMessage.style.display = 'block';
 
@@ -14,16 +13,10 @@ form.addEventListener('submit', function(e) {
   console.log("Rating submitted:", formData.get("rating"));
 
   fetch("https://script.google.com/macros/s/AKfycbyfMh9BI7b6rhBeIFTN05d4pGPaEklhFAccgePmy64uIzRIFcX40aWesU8SuJ15icXO/exec", {
-
     method: "POST",
     body: formData
   })
-  .then(response => {
-    if (!response.ok) {
-      alert("⚠️ Data save nahi hua, but form submitted locally!");
-    }
-  })
-  .catch(error => {
-    console.error("Error:", error);
-  });
+  .then(response => response.text())
+  .then(data => console.log("Response:", data))
+  .catch(error => console.error("Error:", error));
 });
