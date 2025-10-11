@@ -5,7 +5,7 @@ const formData = {
   rating: form.rating.value
 };
 
-fetch("https://script.google.com/macros/s/AKfycby0tG2_UKDQ7LzgWVBOhWU7n1mPdM7RR4cWFlA3d4EFHl21T2G6G-CGjNrPOsMjIUDt/exec", {
+fetch("https://script.google.com/macros/s/AKfycbyQoRt6xsZmMwr1__DEEk626hh1TV2yQNE5WGhsJ56EVAetwufPxiUl9SUmIJQ_YX7TZw/exec", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(formData)
