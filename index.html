@@ -15,12 +15,22 @@
       <input type="text" name="name" placeholder="Name" required>
       <input type="email" name="email" placeholder="Email" required>
       <textarea name="message" placeholder="Message" required></textarea>
-      <select name="rating">
+      
+      <!-- Rating Dropdown with descriptions -->
+      <select name="rating" required>
         <option value="">--Rate us--</option>
-        <option>1</option><option>2</option><option>3</option>
-        <option>4</option><option>5</option>
+        <option value="1">1 - Poor</option>
+        <option value="2">2 - Fair</option>
+        <option value="3">3 - Good</option>
+        <option value="4">4 - Very Good</option>
+        <option value="5">5 - Excellent</option>
       </select>
-      <button type="submit" class="btn">🚀 Submit</button>
+
+      <div class="buttons">
+        <button type="submit" class="btn">🚀 Submit</button>
+        <!-- Reset button added -->
+        <button type="reset" class="btn reset">♻️ Reset</button>
+      </div>
     </form>
   </div>
 
